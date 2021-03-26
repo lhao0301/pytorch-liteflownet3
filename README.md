@@ -1,10 +1,7 @@
 # pytorch-liteflownet3
-This is a personal reimplementation of <a href=https://arxiv.org/abs/2007.09319>LiteFlowNet3</a> [1]  using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href="https://github.com/twhui/LiteFlowNet3#license-and-citation">licensing terms</a> of the authors. Should you be making use of this particular implementation, please acknowledge it appropriately [2].
+This is a personal reimplementation of <a href=https://arxiv.org/abs/2007.09319>LiteFlowNet3</a> [1]  using PyTorch, which is inspired by the <a href=https://github.com/sniklaus/pytorch-liteflownet> pytorch-liteflownet</a> implementation of <a href=https://arxiv.org/abs/1805.07036> LiteFlowNet </a> by `sniklaus`. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href="https://github.com/twhui/LiteFlowNet3#license-and-citation">licensing terms</a> of the authors.
 
 For the original Caffe version of this work, please see: https://github.com/twhui/LiteFlowNet3
-<br />
-
-For the optical flow implementation of <a href=https://arxiv.org/abs/1805.07036> LiteFlowNet </a>, please see: https://github.com/sniklaus/pytorch-liteflownet
 <br />
 
 ## setup
@@ -22,7 +19,7 @@ Download `network-sintel.pytorch` from <a href="https://drive.google.com/file/d/
 python run.py
 ```
 
-I am afraid that I cannot guarantee that this reimplementation is correct. However, it produced results pretty much identical to the implementation of the original authors in the examples that I tried. There are some numerical deviations that stem from differences in the `DownsampleLayer` of Caffe and the `torch.nn.functional.interpolate` function of PyTorch. Please feel free to contribute to this repository by submitting issues and pull requests.
+I am afraid that I cannot guarantee that this reimplementation is correct. However, it produced results pretty much identical to the implementation of the original authors in the examples that I tried. There are some numerical deviations that stem from differences in the `DownsampleLayer` of Caffe and the `torch.nn.functional.interpolate` function of PyTorch. `Please feel free to contribute to this repository by submitting issues and pull requests`.
 
 ## comparison
 <p align="center"><img src="comparison/comparison.gif?raw=true" alt="Comparison"></p>
@@ -43,4 +40,4 @@ As stated in the <a href="https://github.com/twhui/LiteFlowNet3#license-and-cita
 ```
 
 ## Acknowledgments
-Many code are borrowed from <a href=https://github.com/sniklaus/pytorch-liteflownet>pytorch-liteflownet</a>, <a href=https://github.com/NVIDIA/flownet2-pytorch>NVIDIA-Flownet2-pytorch</a>
+Many code of this repo are borrowed from <a href=https://github.com/sniklaus/pytorch-liteflownet>pytorch-liteflownet</a>. And the `correlation layer` is borrowed from <a href=https://github.com/NVIDIA/flownet2-pytorch>NVIDIA-Flownet2-pytorch</a>.
