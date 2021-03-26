@@ -4,6 +4,9 @@ This is a personal reimplementation of <a href=https://arxiv.org/abs/2007.09319>
 For the original Caffe version of this work, please see: https://github.com/twhui/LiteFlowNet3
 <br />
 
+For the optical flow implementation of <a href=https://arxiv.org/abs/1805.07036> LiteFlowNet </a>, please see: https://github.com/sniklaus/pytorch-liteflownet
+<br />
+
 ## setup
 The correlation layer is borrowed from <a href=https://github.com/NVIDIA/flownet2-pytorch>NVIDIA-flownet2-pytorch</a>
 
