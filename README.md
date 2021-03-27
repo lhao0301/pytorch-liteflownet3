@@ -13,7 +13,7 @@ python setup.py install
 ```
 
 ## usage
-Download `network-sintel.pytorch` from <a href="https://drive.google.com/file/d/1vUSEIxXGZa9d2PQ82SG_gbbIUWLNfH50/view?usp=sharing"> Google-Drive </a>. To run it on your demo pair of images, use the following command. `Only sintel-model is supported now`. It's tested with pytorch 1.3.0 and cuda-9.0, later pytorch/cuda version should also be work.
+Download `network-sintel.pytorch` from <a href="https://drive.google.com/file/d/1vUSEIxXGZa9d2PQ82SG_gbbIUWLNfH50/view?usp=sharing"> Google-Drive </a>. To run it on your demo pair of images, use the following command. `Only sintel-model is supported now`. It's tested with pytorch 1.3.0 and cuda-9.0, later pytorch/cuda version should also work.
 
 ```
 python run.py
